@@ -8,7 +8,7 @@ print(f"Liczba wylosowana: {float(np.random.random(1))}\n")
 print("B) Symulowanie wyciągnięcia trzech kart z tali:")
 # Karty z numerami 39-52 to trefle
 a, b, c = random.sample(range(1, 52), 3)
-if a > 39 or b > 39 or c > 3:
+if a > 39 or b > 39 or c > 39:
     print("W wyciągniętych kartach znajduje się trefl\n")
 else:
     print("W Wyciągniętych kartach nie znajduje się trefl\n")
